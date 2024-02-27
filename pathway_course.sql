@@ -1,0 +1,15 @@
+create table if not exists pathway_course(
+course_id integer not null,
+course_name varchar(255) null,
+pathway_name varchar(255) null,
+pathway_content varchar(255) null,
+courses_in_pathway integer null,
+videos_count integer null,
+confluence_count integer null,
+references_list varchar(255) null,
+pathway_authors varchar(255) null,
+pathway_duration integer null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint pathway_course_pk primary key(course_id));

@@ -1,0 +1,15 @@
+create table if not exists saba_platform(
+course_id integer not null,
+course_name varchar(255) null,
+mandatory_couse char null,
+mandatory_learning_hrs integer null,
+course_author varchar(255) null,
+managed_by varchar(255) null,
+review integer null,
+grade integer null,
+category varchar(255) null,
+sub_author varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint saba_platform_pk primary key(course_id));
